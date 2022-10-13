@@ -42,8 +42,8 @@ def do_deploy(archive_path):
 
         run(
             (
-                "mv /data/web_static/releases/{}/web_static/* "
-                + "/data/web_static/releases/{}/"
+                "mv /data/web_static/releases/{}/web_static/* " +
+                "/data/web_static/releases/{}/"
             ).format(file_name, file_name)
         )
 
