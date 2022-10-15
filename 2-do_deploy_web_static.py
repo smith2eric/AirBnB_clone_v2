@@ -57,6 +57,7 @@ def do_deploy(archive_path):
                 " /data/web_static/current"
             ).format(file_name)
         )
+        print('New version deployed!')
         return True
     except Exception:
         return False
